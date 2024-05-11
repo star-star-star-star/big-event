@@ -1,0 +1,30 @@
+spring:
+  datasource:
+    #数据库使用的驱动，这是mysql的驱动
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    #数据库连接地址
+    url: jdbc:mysql://localhost:3306/big_event
+    #用户名
+    username:
+    #密码
+    password:
+  servlet:
+    multipart:
+      # 最大上传文件大小
+      max-file-size: 1GB
+      # 最大请求大小
+      max-request-size: 1GB
+server:
+  port: 8081
+
+JWT-token:
+  private-key: this is a private key
+  # 令牌生命，单位：分钟
+  duration: 525600
+
+upload:
+  # 文件夹的绝对路径（基路径）    tip：不要使用中文目录，可能存在文件编码上的问题，无法访问
+  absolute-path:
+  # 支持的文件类型
+  supported-format-regexp: (.jpg$)|(.png$)|(.jpeg$)
+

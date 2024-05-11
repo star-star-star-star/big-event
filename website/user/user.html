@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html data-bs-theme="light" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>用户首页</title>
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/Navbar-Right-Links-icons.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar navbar-light navbar-expand-md py-3">
+            <div class="container"><a class="navbar-brand d-flex align-items-center" href="#"><img class="rounded-circle" id="userPic" loading="lazy" width="200" height="200" alt="用户头像">
+                    <p>&nbsp; &nbsp;&nbsp;</p><label class="form-label" id="usernameLabel"></label>
+                </a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-2"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navcol-2">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link active" href="user.html">个人信息</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../category/category.html">文章分类</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../article/article.html">文章</a></li>
+                    </ul><button class="btn btn-primary ms-md-2" id="logout" type="submit" onclick="logout()">退出登录</button>
+                </div>
+            </div>
+        </nav>
+        <div class="row text-start d-md-flex justify-content-md-end">
+            <div class="col">
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead class="invisible">
+                            <tr class="invisible"></tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="text-end d-md-flex justify-content-md-end align-items-md-center" style="height: 55px;">ID：</td>
+                                <td style="height: 55px;"><label class="form-label" id="userid"></label></td>
+                                <td style="height: 55px;"></td>
+                            </tr>
+                            <tr>
+                                <td class="text-end d-md-flex justify-content-md-end align-items-md-center" style="height: 55px;">昵称：</td>
+                                <td style="height: 55px;"><input type="text" id="usernickname" readonly="" style="border-style: none;"></td>
+                                <td style="height: 55px;"><button class="btn btn-primary" data-bs-toggle="tooltip" data-bss-tooltip="" type="button" onclick="updatenickname()" title="单击此按钮，昵称栏变为可输入状态。再次单击此按钮，修改昵称。">修改昵称</button></td>
+                            </tr>
+                            <tr>
+                                <td class="text-end d-md-flex justify-content-md-end align-items-md-center" style="height: 55px;">用户名：</td>
+                                <td style="height: 55px;"><label class="form-label" id="username"></label></td>
+                                <td style="height: 55px;"></td>
+                            </tr>
+                            <tr>
+                                <td class="text-end">密码：</td>
+                                <td>**********</td>
+                                <td><a class="btn btn-primary" role="button" data-bs-toggle="tooltip" data-bss-tooltip="" onclick="changepassword()" href="updatepassword.html" title="点击此按钮修改密码。">修改密码</a></td>
+                            </tr>
+                            <tr>
+                                <td class="text-end d-md-flex justify-content-md-end align-items-md-center" style="height: 119px;">头像：</td>
+                                <td><img class="rounded-circle" id="userpic" width="100" height="100" loading="lazy" style="height: 100px;"></td>
+                                <td class="d-md-flex align-items-md-center" style="height: 119px;"><a class="btn btn-primary" role="button" data-bs-toggle="tooltip" data-bss-tooltip="" onclick="updatepic()" href="updatepic.html" title="点击此按钮修改头像。">修改头像</a></td>
+                            </tr>
+                            <tr>
+                                <td class="text-end d-md-flex justify-content-md-end align-items-md-center" style="height: 55px;">邮箱：</td>
+                                <td><input type="email" id="useremail" readonly="" style="border-style: none;"></td>
+                                <td><button class="btn btn-primary" data-bs-toggle="tooltip" data-bss-tooltip="" type="button" onclick="updateemail()" title="点击此按钮，邮箱栏变为可输入状态。再次点击此按钮，修改邮箱。">修改邮箱</button></td>
+                            </tr>
+                            <tr>
+                                <td class="text-end d-md-flex justify-content-md-end align-items-md-center" style="height: 55px;">创建时间：</td>
+                                <td><label class="form-label" id="createtime"></label></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td class="text-end d-md-flex justify-content-md-end align-items-md-center" style="height: 55px;">修改时间：</td>
+                                <td><label class="form-label" id="updatetime"></label></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../assets/js/bs-init.js"></script>
+    <script src="../assets/js/user/user-index.js"></script>
+</body>
+
+</html>

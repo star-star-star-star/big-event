@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html data-bs-theme="light" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>big_event</title>
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/Navbar-Right-Links-icons.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar navbar-light navbar-expand-md py-3">
+            <div class="container"><a class="navbar-brand d-flex align-items-center" href="#"><img class="rounded-circle" id="userPic" loading="lazy" width="150" height="150" alt="用户头像">
+                    <p>&nbsp; &nbsp;&nbsp;</p><label class="form-label" id="usernameLabel"></label>
+                </a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-2"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navcol-2">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link active" href="category.html">查询文章分类</a></li>
+                        <li class="nav-item"><a class="nav-link" href="addcategory.html">添加文章分类</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../user/user.html">回到个人主页</a></li>
+                    </ul><button class="btn btn-primary ms-md-2" id="logout" type="submit" onclick="logout()">退出登录</button>
+                </div>
+            </div>
+        </nav>
+        <div class="row">
+            <div class="col"><label class="col-form-label d-md-flex justify-content-md-end align-items-md-center" style="height: 74px;">该条文章分类的新名称：</label></div>
+            <div class="col"><input type="text" id="newName" style="margin-top: 20px;"></div>
+        </div>
+        <div class="row">
+            <div class="col"><label class="col-form-label d-md-flex justify-content-md-end align-items-md-center" style="height: 74px;">该条文章分类的新别名：</label></div>
+            <div class="col"><input type="text" id="newAlias" style="margin-top: 20px;"></div>
+        </div>
+        <div class="row">
+            <div class="col d-md-flex justify-content-md-center align-items-md-center"><button class="btn btn-primary" type="button" onclick="updateCategory()">修改</button></div>
+        </div>
+    </div>
+    <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../assets/js/bs-init.js"></script>
+    <script src="../assets/js/category/updatecategory.js"></script>
+</body>
+
+</html>

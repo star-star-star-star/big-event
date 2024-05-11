@@ -1,0 +1,156 @@
+{
+  "main": {
+    "id": "cafbd0b8a09de477",
+    "type": "split",
+    "children": [
+      {
+        "id": "b4ff7925ad45cf02",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d4f87e2aaadbe153",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "开发文档.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3efa03091c003933",
+    "type": "split",
+    "children": [
+      {
+        "id": "631f687ed5961d31",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ac39a833642c921f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "aec610aa334febe2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1b1c275ac6e6b1bd",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "8dce48c3e729856e",
+    "type": "split",
+    "children": [
+      {
+        "id": "c8482acc47eee387",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0d1a5a7ca1cf1056",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "开发文档.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "52c52083fc7ab388",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "开发文档.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "43d8820bdfa1b42a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "a919a333331b71da",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "开发文档.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "d4f87e2aaadbe153",
+  "lastOpenFiles": [
+    "1. 数据库设计.md",
+    "开发文档.md",
+    "Welcome.md"
+  ]
+}
